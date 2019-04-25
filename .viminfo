@@ -11,546 +11,575 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/help
+~MSle0~/fold commands
 
 # Command Line History (newest to oldest):
 :q!
-|2,0,1555690442,,"q!"
-:Q1
-|2,0,1555688527,,"Q1"
-:help :Ntree
-|2,0,1555688516,,"help :Ntree"
-:NERDTree
-|2,0,1555688450,,"NERDTree"
+|2,0,1556157862,,"q!"
 :q
-|2,0,1555688385,,"q"
-:wq
-|2,0,1555688373,,"wq"
-:source %
-|2,0,1555687939,,"source %"
+|2,0,1556157674,,"q"
+:help surround.txt
+|2,0,1556157640,,"help surround.txt"
 :help
-|2,0,1555687794,,"help"
-:help 
-|2,0,1555686677,,"help "
-:tabe test
-|2,0,1555686978,,"tabe test"
-:help tab
-|2,0,1555686624,,"help tab"
-:tab 1
-|2,0,1555686615,,"tab 1"
-:cht.sh
-|2,0,1555686076,,"cht.sh"
-:!cht.sh :vim
-|2,0,1555685251,,"!cht.sh :vim"
-:help usr_10.txt
-|2,0,1555684944,,"help usr_10.txt"
-:help usr_28.txt
-|2,0,1555684726,,"help usr_28.txt"
+|2,0,1556157617,,"help"
+:help supertab.txt
+|2,0,1556157534,,"help supertab.txt"
+:wq
+|2,0,1556077621,,"wq"
 :help fold.txt
-|2,0,1555684709,,"help fold.txt"
-:!cht.sh --shell
-|2,0,1555649710,,"!cht.sh --shell"
-:!cht.sh 
-|2,0,1555649698,,"!cht.sh "
-:m a
-|2,0,1555645577,,"m a"
-:ma
-|2,0,1555645573,,"ma"
-:m
-|2,0,1555645568,,"m"
+|2,0,1556077171,,"help fold.txt"
+:helpfold.txt
+|2,0,1556076589,,"helpfold.txt"
+:help fold
+|2,0,1556076581,,"help fold"
+:jjkkk
+|2,0,1556076545,,"jjkkk"
+:NERDTreeClose
+|2,0,1556075365,,"NERDTreeClose"
+:NERDTree
+|2,0,1556075271,,"NERDTree"
+:! python blink.py
+|2,0,1556068556,,"! python blink.py"
+:w
+|2,0,1556068538,,"w"
+:s
+|2,0,1556068321,,"s"
+:Ag ac
+|2,0,1556038385,,"Ag ac"
+:Ag ad
+|2,0,1556038344,,"Ag ad"
+:vsp sketcbook
+|2,0,1556028184,,"vsp sketcbook"
+:help windows
+|2,0,1556028119,,"help windows"
 :q1
-|2,0,1555594034,,"q1"
-:G
-|2,0,1552839042,,"G"
-:/help
-|2,0,1552838947,,"/help"
+|2,0,1556027734,,"q1"
+::q!
+|2,0,1556027026,,":q!"
+:wq! test.py
+|2,0,1556026734,,"wq! test.py"
+:wq test.py
+|2,0,1556026719,,"wq test.py"
 :Q!
-|2,0,1546659729,,"Q!"
+|2,0,1556026561,,"Q!"
+:w test.py
+|2,0,1555988570,,"w test.py"
+:tabe
+|2,0,1555988558,,"tabe"
+:tabn hello_world.py
+|2,0,1555988552,,"tabn hello_world.py"
+:tabn
+|2,0,1555988530,,"tabn"
+:tabo 1
+|2,0,1555988523,,"tabo 1"
+:windo
+|2,0,1555988280,,"windo"
+:clearjumps
+|2,0,1555988236,,"clearjumps"
+:help tabpage.txt
+|2,0,1555988201,,"help tabpage.txt"
+:n
+|2,0,1555988120,,"n"
 
 # Search String History (newest to oldest):
-?/line number
-|2,1,1552838999,47,"line number"
-?/go to
-|2,1,1552838973,47,"go to"
-?/help
-|2,1,1552838950,47,"help"
-? help
-|2,1,1552838947,,"help"
+?/fold commands
+|2,1,1556077183,47,"fold commands"
+?/string_pars
+|2,1,1556075803,47,"string_pars"
+?/let g:
+|2,1,1556027782,47,"let g:"
+?/??
+|2,1,1556026911,47,"??"
+?/tab
+|2,1,1555988180,47,"tab"
+?/tabs
+|2,1,1555988170,47,"tabs"
+?/vintage
+|2,1,1555985714,47,"vintage"
 
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
+@"
+|2,3,1556157837,,"\""
 
 # Debug Line History (newest to oldest):
 
 # Registers:
 "0	CHAR	0
-	KERNEL=="ttyUSB*",MODE="0666"
-	KERNEL=="ttyACM*",MODE="0666"
-	KERNEL=="ttyS*",MODE="0666"
-|3,0,0,0,3,0,1552843283,"KERNEL==\"ttyUSB*\",MODE=\"0666\"","KERNEL==\"ttyACM*\",MODE=\"0666\"","KERNEL==\"ttyS*\",MODE=\"0666\""
+	e
+|3,0,0,0,1,0,1556157837,"e"
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1555688371,""
+	<">Hello World</">
+|3,1,1,1,1,0,1556157850,"<\">Hello World</\">"
 "2	LINE	0
-	execute pathogen#infect()
-|3,0,2,1,1,0,1555688332,"execute pathogen#infect()"
+	:help
+	
+|3,0,2,1,2,0,1556157494,":help",""
 "3	LINE	0
-	Plugin tpope/vim-fugitive
-|3,0,3,1,1,0,1555687960,"Plugin tpope/vim-fugitive"
+	
+|3,0,3,1,1,0,1556077486,""
 "4	LINE	0
-	/ ~/.bash.d/cht.sh
-|3,0,4,1,1,0,1555679759,"/ ~/.bash.d/cht.sh"
-"5	CHAR	0
 	
-	#
-|3,0,5,0,2,0,1555480133,"","#"
-"6	CHAR	0
-	BELGRADE
+|3,0,4,1,1,0,1556077486,""
+"5	LINE	0
 	
-|3,0,6,0,2,0,1550023484,"BELGRADE",""
-"7	CHAR	0
-	2222
-	
-|3,0,7,0,2,0,1550023399,"2222",""
+|3,0,5,1,1,0,1556077485,""
+"6	LINE	0
+	*/  
+|3,0,6,1,1,0,1556077160,"*/  "
+"7	LINE	0
+	*/  
+|3,0,7,1,1,0,1556075842,"*/  "
 "8	LINE	0
-	       0.50 1.00 1.00 0.98 0.90 0.73 0.49 0.18 0.01 0.00   -    -  MUFday
-|3,0,8,1,1,0,1550022979,"       0.50 1.00 1.00 0.98 0.90 0.73 0.49 0.18 0.01 0.00   -    -  MUFday"
+	/*  
+|3,0,8,1,1,0,1556075840,"/*  "
 "9	LINE	0
-	        436  300  300  308  325  352  470  470  470  470   -    -  V HITE
-|3,0,9,1,1,0,1550022978,"        436  300  300  308  325  352  470  470  470  470   -    -  V HITE"
+	/*
+	 * define pins here
+	 */
+|3,0,9,1,3,0,1556075386,"/*"," * define pins here"," */"
+"-	CHAR	0
+	Hello World
+|3,0,36,0,1,0,1556157836,"Hello World"
 
 # File marks:
-'A  308  1  ~/.config/vifm/vifm-help.txt
-|4,65,308,1,1555645589,"~/.config/vifm/vifm-help.txt"
-'L  306  1  ~/.config/vifm/vifm-help.txt
-|4,76,306,1,1555645532,"~/.config/vifm/vifm-help.txt"
-'0  15  0  ~/NERD_tree_2
-|4,48,15,0,1555688492,"~/NERD_tree_2"
-'1  236  0  ~/.vimrc
-|4,49,236,0,1555688373,"~/.vimrc"
-'2  249  0  ~/.vimrc
-|4,50,249,0,1555687965,"~/.vimrc"
-'3  249  0  ~/.vimrc
-|4,51,249,0,1555687965,"~/.vimrc"
-'4  2  0  ~/test
-|4,52,2,0,1555687750,"~/test"
-'5  139  0  ~/.bashrc
-|4,53,139,0,1555679762,"~/.bashrc"
-'6  1  0  /run/media/private/kb001/sdb1/TV Show/Big Bang Theory/Season 12/The.Big.Bang.Theory.s12e11.internal.720p.web.x264-bamboozle[eztv].mkvj
-|4,54,1,0,1555654889,"/run/media/private/kb001/sdb1/TV Show/Big Bang Theory/Season 12/The.Big.Bang.Theory.s12e11.internal.720p.web.x264-bamboozle[eztv].mkvj"
-'7  454  7  ~/.config/vifm/vifm-help.txt
-|4,55,454,7,1555645807,"~/.config/vifm/vifm-help.txt"
-'8  1  0  ~/ARDOPSession8515_20190418.log
-|4,56,1,0,1555594059,"~/ARDOPSession8515_20190418.log"
-'9  1  0  ~/Nextcloud-2.5.1-x86_64.AppImage
-|4,57,1,0,1555594034,"~/Nextcloud-2.5.1-x86_64.AppImage"
+'0  1  0  ~/.vim/bundle/python.py
+|4,48,1,0,1556157543,"~/.vim/bundle/python.py"
+'1  22  0  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,49,22,0,1556077621,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+'2  19  51  ~/.vimrc
+|4,50,19,51,1556075998,"~/.vimrc"
+'3  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,51,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+'4  15  0  ~/blink.py
+|4,52,15,0,1556068561,"~/blink.py"
+'5  80  0  ~/sketchbook/Relay_Shield_V2_1_Sample_Code.ino
+|4,53,80,0,1556038392,"~/sketchbook/Relay_Shield_V2_1_Sample_Code.ino"
+'6  1  0  ~/.vimrc
+|4,54,1,0,1556027799,"~/.vimrc"
+'7  1  0  ~/.vimrc
+|4,55,1,0,1556027799,"~/.vimrc"
+'8  80  0  ~/sketchbook/Relay_Shield_V2_1_Sample_Code.ino
+|4,56,80,0,1556027738,"~/sketchbook/Relay_Shield_V2_1_Sample_Code.ino"
+'9  12  0  ~/NERD_tree_1
+|4,57,12,0,1556027028,"~/NERD_tree_1"
 
 # Jumplist (newest first):
--'  15  0  ~/NERD_tree_2
-|4,39,15,0,1555688492,"~/NERD_tree_2"
--'  15  0  ~/NERD_tree_2
-|4,39,15,0,1555688492,"~/NERD_tree_2"
--'  15  0  ~/NERD_tree_2
-|4,39,15,0,1555688492,"~/NERD_tree_2"
--'  15  0  ~/NERD_tree_2
-|4,39,15,0,1555688492,"~/NERD_tree_2"
--'  29  4  ~/NERD_tree_2
-|4,39,29,4,1555688488,"~/NERD_tree_2"
--'  1  0  ~/NERD_tree_2
-|4,39,1,0,1555688488,"~/NERD_tree_2"
--'  29  4  ~/NERD_tree_2
-|4,39,29,4,1555688488,"~/NERD_tree_2"
--'  1  0  ~/NERD_tree_2
-|4,39,1,0,1555688488,"~/NERD_tree_2"
--'  29  4  ~/NERD_tree_2
-|4,39,29,4,1555688488,"~/NERD_tree_2"
--'  1  0  ~/NERD_tree_2
-|4,39,1,0,1555688488,"~/NERD_tree_2"
--'  29  4  ~/NERD_tree_2
-|4,39,29,4,1555688488,"~/NERD_tree_2"
--'  1  0  ~/NERD_tree_2
-|4,39,1,0,1555688488,"~/NERD_tree_2"
--'  236  0  ~/.vimrc
-|4,39,236,0,1555688373,"~/.vimrc"
--'  236  0  ~/.vimrc
-|4,39,236,0,1555688373,"~/.vimrc"
--'  236  0  ~/.vimrc
-|4,39,236,0,1555688373,"~/.vimrc"
--'  236  0  ~/.vimrc
-|4,39,236,0,1555688373,"~/.vimrc"
--'  22  0  ~/.vimrc
-|4,39,22,0,1555688320,"~/.vimrc"
--'  22  0  ~/.vimrc
-|4,39,22,0,1555688320,"~/.vimrc"
--'  22  0  ~/.vimrc
-|4,39,22,0,1555688320,"~/.vimrc"
--'  22  0  ~/.vimrc
-|4,39,22,0,1555688320,"~/.vimrc"
--'  249  0  ~/.vimrc
-|4,39,249,0,1555688256,"~/.vimrc"
--'  249  0  ~/.vimrc
-|4,39,249,0,1555688256,"~/.vimrc"
--'  249  0  ~/.vimrc
-|4,39,249,0,1555688256,"~/.vimrc"
--'  249  0  ~/.vimrc
-|4,39,249,0,1555688256,"~/.vimrc"
--'  249  0  ~/.vimrc
-|4,39,249,0,1555687965,"~/.vimrc"
--'  249  0  ~/.vimrc
-|4,39,249,0,1555687965,"~/.vimrc"
--'  249  0  ~/.vimrc
-|4,39,249,0,1555687965,"~/.vimrc"
--'  249  0  ~/.vimrc
-|4,39,249,0,1555687965,"~/.vimrc"
--'  250  0  ~/.vimrc
-|4,39,250,0,1555687957,"~/.vimrc"
+-'  1  0  ~/.vim/bundle/python.py
+|4,39,1,0,1556157543,"~/.vim/bundle/python.py"
+-'  1  0  ~/.vim/bundle/python.py
+|4,39,1,0,1556157543,"~/.vim/bundle/python.py"
+-'  22  0  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,22,0,1556077621,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  22  0  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,22,0,1556077621,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  22  0  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,22,0,1556077621,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  22  0  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,22,0,1556077621,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  22  0  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,22,0,1556077621,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  22  0  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,22,0,1556077621,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  22  0  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,22,0,1556077621,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  22  0  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,22,0,1556077621,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  19  51  ~/.vimrc
+|4,39,19,51,1556075998,"~/.vimrc"
+-'  19  51  ~/.vimrc
+|4,39,19,51,1556075998,"~/.vimrc"
+-'  19  51  ~/.vimrc
+|4,39,19,51,1556075998,"~/.vimrc"
+-'  19  51  ~/.vimrc
+|4,39,19,51,1556075998,"~/.vimrc"
+-'  19  51  ~/.vimrc
+|4,39,19,51,1556075998,"~/.vimrc"
+-'  19  51  ~/.vimrc
+|4,39,19,51,1556075998,"~/.vimrc"
+-'  19  51  ~/.vimrc
+|4,39,19,51,1556075998,"~/.vimrc"
+-'  19  51  ~/.vimrc
+|4,39,19,51,1556075998,"~/.vimrc"
+-'  18  16  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,18,16,1556075623,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  18  16  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,18,16,1556075623,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  18  16  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,18,16,1556075623,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  18  16  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,18,16,1556075623,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  18  16  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,18,16,1556075623,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  18  16  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,18,16,1556075623,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  18  16  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,18,16,1556075623,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  18  16  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,18,16,1556075623,"~/sketchbook/SurvivalCommando/commando/commando.ino"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1555687957,"~/.vimrc"
--'  250  0  ~/.vimrc
-|4,39,250,0,1555687957,"~/.vimrc"
+|4,39,1,0,1556075555,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1555687957,"~/.vimrc"
--'  250  0  ~/.vimrc
-|4,39,250,0,1555687957,"~/.vimrc"
+|4,39,1,0,1556075555,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1555687957,"~/.vimrc"
--'  250  0  ~/.vimrc
-|4,39,250,0,1555687957,"~/.vimrc"
+|4,39,1,0,1556075555,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1555687957,"~/.vimrc"
--'  250  0  ~/.vimrc
-|4,39,250,0,1555687957,"~/.vimrc"
+|4,39,1,0,1556075555,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1555687957,"~/.vimrc"
--'  250  0  ~/.vimrc
-|4,39,250,0,1555687957,"~/.vimrc"
+|4,39,1,0,1556075555,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1555687957,"~/.vimrc"
--'  250  0  ~/.vimrc
-|4,39,250,0,1555687957,"~/.vimrc"
+|4,39,1,0,1556075555,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1555687957,"~/.vimrc"
--'  250  0  ~/.vimrc
-|4,39,250,0,1555687957,"~/.vimrc"
+|4,39,1,0,1556075555,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1555687957,"~/.vimrc"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
--'  2  0  ~/test
-|4,39,2,0,1555687750,"~/test"
+|4,39,1,0,1556075555,"~/.vimrc"
+-'  1  0  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,1,0,1556074782,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  1  0  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,1,0,1556074782,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  1  0  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,1,0,1556074782,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  1  0  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,1,0,1556074782,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  1  0  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,1,0,1556074782,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  1  0  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,1,0,1556074782,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  1  0  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,1,0,1556074782,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  1  0  ~/sketchbook/SurvivalCommando/commando/commando.ino
+|4,39,1,0,1556074782,"~/sketchbook/SurvivalCommando/commando/commando.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  1  2  ~/Downloads/Library/EC_I2C.ino
+|4,39,1,2,1556071450,"~/Downloads/Library/EC_I2C.ino"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
+-'  15  0  ~/blink.py
+|4,39,15,0,1556068561,"~/blink.py"
 
 # History of marks within files (newest to oldest):
 
-> /usr/share/vim/vim81/doc/pi_netrw.txt
-	*	1555688523	0
-	"	1494	48
-
-> ~/NERD_tree_2
-	*	1555688491	0
-	"	15	0
-	.	1	0
-	+	1	0
-
-> ~/Charts/ENC/US_FL/US1GC09M/US1GC09A.TXT
-	*	1555688462	0
-	"	78	803
-
-> ~/NERD_tree_1
-	*	1555688442	0
-	"	75	0
-	.	1	0
-	+	1	0
-
-> ~/.vimrc
-	*	1555688371	0
-	"	236	0
-	.	236	0
-	+	250	0
-	+	22	0
-	+	236	0
+> ~/.vim/pack/tpope/start/surround/doc/surround.txt
+	*	1556157669	0
+	"	19	3
 
 > /usr/share/vim/vim81/doc/help.txt
-	*	1555687823	0
-	"	224	0
+	*	1556157625	0
+	"	225	1
 
-> ~/test
-	*	1555687748	0
-	"	2	0
-	^	2	0
-	.	2	0
-	+	2	0
+> ~/.vim/bundle/python.py
+	*	1556157541	0
+	"	1	0
+	.	1	0
+	+	1	0
 
-> /usr/share/vim/vim81/doc/intro.txt
-	*	1555686657	0
-	"	482	56
+> ~/sketchbook/SurvivalCommando/commando/commando.ino
+	*	1556077615	0
+	"	22	0
+	^	22	0
+	.	21	22
+	+	24	0
+	+	30	0
+	+	17	3
+	+	17	2
+	+	17	3
+	+	17	0
+	+	19	0
+	+	18	16
+	+	21	22
 
-> /usr/share/vim/vim81/doc/usr_10.txt
-	*	1555685082	0
-	"	127	0
-
-> /usr/share/vim/vim81/doc/usr_28.txt
-	*	1555684891	0
-	"	191	0
+> ~/Downloads/Library/EC_I2C/EC_I2C.ino
+	*	1556077611	0
+	"	78	0
+	.	40	0
+	+	126	0
+	+	130	0
+	+	40	0
+	+	37	0
+	+	36	12
+	+	40	0
 
 > /usr/share/vim/vim81/doc/fold.txt
-	*	1555684709	0
-	"	1	0
+	*	1556077269	0
+	"	513	47
 
-> ~/.bashrc
-	*	1555679761	0
-	"	139	0
-	.	140	0
-	+	140	0
+> /usr/share/vim/vim81/doc/eval.txt
+	*	1556077269	0
+	"	3216	26
 
-> /run/media/private/kb001/sdb1/TV Show/Big Bang Theory/Season 12/The.Big.Bang.Theory.s12e11.internal.720p.web.x264-bamboozle[eztv].mkvj
-	*	1555654887	0
-	"	1	0
+> ~/.vimrc
+	*	1556075995	0
+	"	19	51
+	^	78	0
+	.	78	0
+	+	251	0
+	+	78	0
 
-> ~/.config/vifm/vifm-help.txt
-	*	1555645804	0
-	"	454	7
-	.	151	0
-	+	315	0
-	+	307	0
-	+	309	0
-	+	1581	0
-	+	151	0
-	a	306	1
-	h	306	1
+> ~/sketchbook/SurvivalCommando/commando/NERD_tree_1
+	*	1556075352	0
+	"	12	0
+	.	1	0
+	+	1	0
 
-> ~/ARDOPSession8515_20190418.log
-	*	1555594058	0
-	"	1	0
+> ~/Downloads/Library/EC_I2C.ino
+	*	1556071443	0
+	"	1	2
 
-> ~/Nextcloud-2.5.1-x86_64.AppImage
-	*	1555594033	0
-	"	1	0
+> ~/blink.py
+	*	1556068557	0
+	"	15	0
+	^	15	0
+	.	15	0
+	+	6	24
+	+	10	21
+	+	10	23
+	+	12	0
+	+	12	24
+	+	15	0
 
-> ~/Nextcloud/Backup/WigleWifi_20190201145148.csv.gz
-	*	1555593754	0
-	"	1	0
-	.	93433	0
-	+	93433	0
-
-> ~/Desktop/striptz/.git/COMMIT_EDITMSG
-	*	1555480293	0
-	"	1	51
-	^	1	52
-	.	1	51
-	+	1	51
-
-> ~/Desktop/striptz/test.py
-	*	1555479917	0
-	"	1	6
-	^	1	7
-	.	1	6
-	+	3	27
-	+	1	6
-
-> ~/Desktop/striptz/striptz.py
-	*	1555479899	0
-	"	1	0
-
-> /etc/default/gpsd
-	*	1554770201	0
-	"	11	20
-	.	11	20
-	+	11	20
-
-> ~/Downloads/Software/ardopc_64
-	*	1554436395	0
-	"	1	0
-
-> /etc/udev/rules.d/70-opencpn.rules
-	*	1552843286	0
-	"	1	0
-	^	3	27
-	.	4	0
-	+	4	0
-
-> /usr/local/lib/python2.7/dist-packages/osmosdr/osmosdr_swig.py
-	*	1552840883	0
-	"	1169	58
-	.	2445	0
-	+	2445	0
-
-> /tmp/tutordXBK2z
-	*	1552839125	0
-	"	504	0
-
-> /usr/local/lib/pkgconfig/gnuradio-osmosdr.pc
-	*	1552660214	0
-	"	1	0
-
-> /usr/local/lib/python2.7/dist-packages/ais/radio.py
-	*	1552659007	0
-	"	81	0
-	.	77	0
-	+	77	0
-
-> /usr/local/bin/ais_rx
-	*	1552658925	0
-	"	18	0
-
-> /usr/lib/python3/dist-packages/mpl_toolkits/basemap/__init__.py
-	*	1550048907	0
-	"	48	7
-	.	48	7
-	+	48	7
-
-> /usr/local/lib/python3.7/site-packages/pythonprop/voacapgui.py
-	*	1550048727	0
-	"	39	37
-
-> ~/itshfbc/run/voacapx.dat
-	*	1550023680	0
-	"	8	47
-	^	8	48
-	.	8	47
-	+	5	14
-	+	13	0
-	+	5	16
-	+	5	19
-	+	7	15
-	+	7	26
-	+	8	47
-
-> ~/itshfbc/run/voacapx.out
-	*	1550023281	0
-	"	374	24
-	.	57	0
-	+	63	0
-	+	57	0
-
-> /usr/share/pkg-config-dpkghook
-	*	1549989931	0
-	"	30	0
-
-> /etc/postgresql/11/main/postgresql.conf
-	*	1549684736	0
-	"	63	10
-	.	63	10
-	+	63	10
-
-> ~/Dojo/Brute/slice.py
-	*	1549154093	0
-	"	1	0
-
-> ~/test.txt
-	*	1547956000	0
-	"	1	0
-	.	2	0
+> ~/sketchbook/Relay_Shield_V2_1_Sample_Code.ino
+	*	1556038390	0
+	"	80	0
+	^	80	0
+	.	80	0
+	+	27	15
+	+	16	0
+	+	78	6
+	+	78	3
+	+	80	0
 	+	2	0
+	+	20	0
+	+	2	0
+	+	80	0
 
-> ~/Dojo/2017-SIT-RE-Presentation/re1/walkthrough.txt
-	*	1546659731	0
+> /usr/share/vim/vim81/doc/windows.txt
+	*	1556028208	0
+	"	236	56
+
+> /usr/share/vim/vim81/doc/sketcbook
+	*	1556028198	0
 	"	1	0
 
-> ~/.vnc/xstartup
-	*	1545247214	0
+> ~/NERD_tree_1
+	*	1556027026	0
+	"	12	0
+	.	1	0
+	+	1	0
+
+> ~/Downloads/Movies/Game.of.Thrones.S08E02.720p.WEB-DL.x264-MkvCage.ws.mkv
+	*	1556027024	0
+	"	46	146
+	^	3	0
+	.	3	0
+	+	2	0
+	+	3	0
+
+> ~/test.py
+	*	1556026875	0
 	"	1	0
+	^	23	9
+	.	1	0
+	+	23	9
+	+	1	0
+
+> /etc/default/keyboard
+	*	1556026598	0
+	"	8	22
+	^	8	23
+	.	8	22
+	+	1	130
+	+	1	30
+	+	1	68
+	+	1	70
+	+	1	86
+	+	1	101
+	+	1	115
+	+	1	129
+	+	2	0
+	+	8	22
+
+> ~/.xinitrc
+	*	1556026347	0
+	"	1	15
+	^	1	16
+	.	1	15
+	+	1	15
+	o	1	0
+
+> ~/Desktop/Trident/fabfile.py
+	*	1555992709	0
+	"	10	38
+	^	10	39
+	.	10	39
+	+	6	33
+	+	9	48
+	+	10	39
+
+> /tmp/tutoregB0jf
+	*	1555989615	0
+	"	427	0
+	.	405	59
+	+	203	44
+	+	222	46
+	+	270	0
+	+	294	28
+	+	316	0
+	+	319	0
+	+	294	0
+	+	339	53
+	+	385	0
+	+	387	0
+	+	386	0
+	+	385	0
+	+	387	0
+	+	385	0
+	+	388	0
+	+	405	59
+
+> /tmp/tutorOGUA5K
+	*	1555989208	0
+	"	160	39
+	^	134	43
+	.	134	42
+	+	85	31
+	+	109	45
+	+	132	47
+	+	134	42
+
+> ~/sketchbook/NERD_tree_2
+	*	1555988618	0
+	"	7	15
+	.	1	0
+	+	1	0
+
+> /usr/share/vim/vim81/doc/tabpage.txt
+	*	1555988516	0
+	"	477	0
+
+> ~/exit
+	*	1555986542	0
+	"	1	0
+
+> ~/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings
+	*	1555985875	0
+	"	475	0
+	^	472	29
+	.	472	28
+	+	471	91
+	+	473	0
+	+	474	40
+	+	475	0
+	+	474	41
+	+	472	28
+
+> ~/.config/sublime-text-3/Packages/NERD_tree_1
+	*	1555963789	0
+	"	1	0
+	.	1	0
+	+	1	0
